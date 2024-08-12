@@ -12,3 +12,7 @@ https://stackoverflow.com/questions/77147312/can-t-lock-android-mtk-8050-cpu-fre
 # install
 
 This script requires Termux with `tsu` installed & Python.
+
+You can clone this repository by using git.
+
+`git clone https://github.com/no-venv/mtk-cpuctrl.git`
