@@ -120,10 +120,10 @@ while True:
             func = inc(cluster)
         case 1:
             min_freq,return_code = select_freq(cluster,"Minimum")
-            func = inc(freq_type)
+            func = inc(min_freq)
         case 2:
             max_freq,return_code = select_freq(cluster,"Maximum")
-            func = inc(freq_type)
+            func = inc(max_freq)
         case 3:
             prun("echo {} {} > {}".format(cluster,max_freq,SET_MAX_FREQ_FILE))
             prun("echo {} {} > {}".format(cluster,min_freq,SET_MIN_FREQ_FILE))
